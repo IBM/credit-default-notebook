@@ -23,7 +23,7 @@ Model creation is inspired by source : https://github.com/ibmsoe/snap-ml/blob/ma
 		conda create -n credit-default --force -y scikit-learn pandas cython jpeg jupyter matplotlib
 		conda activate credit-default
 
-3. Start your Jupyter Notebook and launch via web browser using ip address of the IBM Z machine where notebook up and running ie. http://<ip-addr>:8888/
+3. Start your Jupyter Notebook and launch via web browser using ip address of the IBM Z machine where notebook up and running ie. http://ip-addr:8888/
 
 		jupyter notebook
 
