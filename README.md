@@ -25,6 +25,8 @@ Model creation is inspired by source : https://github.com/ibmsoe/snap-ml/blob/ma
 
 3. Start your Jupyter Notebook and launch via web browser using ip address of the IBM Z machine where notebook up and running ie. http://ip-addr:8888/
 
-		jupyter notebook
+		jupyter notebook --ip "0.0.0.0" --port 8888
+
+**NOTE** Make sure that port on which jupter notebook running exposed on the IBM Z machine so that it can be accessed via external browser if needed.
 
 4. Import the notebook using `upload` option in the Jupyter Notebook web browser
